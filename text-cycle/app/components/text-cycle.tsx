@@ -2,9 +2,9 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import Lottie, { LottieRefCurrentProps } from "lottie-react";
-import animationData from "../assets/black-guy-animation.json";
-import { useRef } from "react";
+// import Lottie, { LottieRefCurrentProps } from "lottie-react";
+// import animationData from "../assets/black-guy-animation.json";
+// import { useRef } from "react";
 
 const texts = ["lewd", "lascivious", "salacious", "outrageous"];
 
@@ -24,7 +24,7 @@ const variants = {
 };
 
 const TextCycle = () => {
-  const blackMan = useRef<LottieRefCurrentProps>(null);
+//   const blackMan = useRef<LottieRefCurrentProps>(null);
 
   const [index, setIndex] = useState(0);
   const [direction, setDirection] = useState(1);
